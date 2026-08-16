@@ -2,8 +2,8 @@ VERSION 5.00
 Begin VB.Form MainMenu 
    Caption         =   "The Puppy Index"
    ClientHeight    =   3060
-   ClientLeft      =   165
-   ClientTop       =   855
+   ClientLeft      =   225
+   ClientTop       =   870
    ClientWidth     =   4650
    Icon            =   "MainMenu.frx":0000
    LinkTopic       =   "Form1"
@@ -28,7 +28,7 @@ Begin VB.Form MainMenu
    End
    Begin VB.Label Label3 
       Alignment       =   2  'Center
-      Caption         =   "Terrier VI"
+      Caption         =   "Terrier VII"
       BeginProperty Font 
          Name            =   "FOT-Skip Std B"
          Size            =   14.25
@@ -55,7 +55,7 @@ Begin VB.Form MainMenu
    Begin VB.Label Label1 
       Alignment       =   2  'Center
       BackStyle       =   0  'Transparent
-      Caption         =   "27"
+      Caption         =   "28"
       BeginProperty Font 
          Name            =   "FOT-Chiaro Std B"
          Size            =   18
@@ -97,7 +97,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub about_Click()
-MsgBox "The Puppy Index 27.0 - Terrier pt VI", vbInformation, "Terrier pt VI (version 27.0)"
+MsgBox "The Puppy Index 28.0 - Terrier pt VII", vbInformation, "Terrier pt VII (version 28.0)"
 End Sub
 
 Private Sub accessCode_Click()

@@ -10,13 +10,21 @@ Begin VB.Form BreedMenu
    ScaleHeight     =   3465
    ScaleWidth      =   4680
    StartUpPosition =   3  'Windows Default
+   Begin VB.CommandButton Command7 
+      Caption         =   "Boston"
+      Height          =   375
+      Left            =   240
+      TabIndex        =   9
+      Top             =   1800
+      Width           =   1695
+   End
    Begin VB.CommandButton Command4 
       Caption         =   "Dobermann"
       Height          =   375
       Left            =   240
       TabIndex        =   6
       ToolTipText     =   "3 puppies here. (Progress: 100%)"
-      Top             =   2400
+      Top             =   2880
       Width           =   1335
    End
    Begin VB.CommandButton Command3 
@@ -25,7 +33,7 @@ Begin VB.Form BreedMenu
       Left            =   1920
       TabIndex        =   5
       ToolTipText     =   "2 puppies here."
-      Top             =   1800
+      Top             =   2280
       Width           =   1455
    End
    Begin VB.CommandButton Command2 
@@ -34,7 +42,7 @@ Begin VB.Form BreedMenu
       Left            =   120
       TabIndex        =   4
       ToolTipText     =   "1 puppy here."
-      Top             =   1800
+      Top             =   2280
       Width           =   1455
    End
    Begin VB.Frame Frame2 
@@ -56,7 +64,7 @@ Begin VB.Form BreedMenu
    End
    Begin VB.Frame Frame1 
       Caption         =   "Terriers"
-      Height          =   1695
+      Height          =   2055
       Left            =   120
       TabIndex        =   0
       Top             =   120
@@ -115,6 +123,10 @@ End Sub
 
 Private Sub Command6_Click()
 JRTMenu.Show
+End Sub
+
+Private Sub Command7_Click()
+BSTMenu.Show
 End Sub
 
 Private Sub PRTButton_Click()
