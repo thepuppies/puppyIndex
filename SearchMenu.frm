@@ -38,8 +38,14 @@ Else
 If Text1.Text = "Bone" Then
 BoneProp.Show
 Else
+If Text1.Text = "Triangle" Then
+TriangleProp.Show
+Else
 If Text1.Text = "Custard" Then
 CustardProp.Show
+Else
+If Text1.Text = "Snowy" Then
+SnowyProp.Show
 Else
 If Text1.Text = "Tom" Then
 TomProp.Show
@@ -113,6 +119,8 @@ If Text1.Text = "Scout" Then
 ScoutProp.Show
 Else
 MsgBox "Puppy not found in index", vbExclamation, "Puppy not found"
+End If
+End If
 End If
 End If
 End If

@@ -28,7 +28,7 @@ Begin VB.Form MainMenu
    End
    Begin VB.Label Label3 
       Alignment       =   2  'Center
-      Caption         =   "Terrier VII"
+      Caption         =   "Terrier IX"
       BeginProperty Font 
          Name            =   "FOT-Skip Std B"
          Size            =   14.25
@@ -55,7 +55,7 @@ Begin VB.Form MainMenu
    Begin VB.Label Label1 
       Alignment       =   2  'Center
       BackStyle       =   0  'Transparent
-      Caption         =   "28"
+      Caption         =   "30"
       BeginProperty Font 
          Name            =   "FOT-Chiaro Std B"
          Size            =   18
@@ -97,7 +97,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub about_Click()
-MsgBox "The Puppy Index 28.0 - Terrier pt VII", vbInformation, "Terrier pt VII (version 28.0)"
+MsgBox "The Puppy Index 30.0 - Terrier pt IX", vbInformation, "Terrier pt IX (version 30.0)"
 End Sub
 
 Private Sub accessCode_Click()

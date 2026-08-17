@@ -1,15 +1,23 @@
 VERSION 5.00
 Begin VB.Form BreedMenu 
    Caption         =   "Breeds at the Puppies"
-   ClientHeight    =   3465
+   ClientHeight    =   4005
    ClientLeft      =   60
    ClientTop       =   345
    ClientWidth     =   4680
    Icon            =   "BreedMenu.frx":0000
    LinkTopic       =   "Form2"
-   ScaleHeight     =   3465
+   ScaleHeight     =   4005
    ScaleWidth      =   4680
    StartUpPosition =   3  'Windows Default
+   Begin VB.CommandButton Command8 
+      Caption         =   "Scottish"
+      Height          =   375
+      Left            =   240
+      TabIndex        =   10
+      Top             =   2280
+      Width           =   1695
+   End
    Begin VB.CommandButton Command7 
       Caption         =   "Boston"
       Height          =   375
@@ -24,16 +32,16 @@ Begin VB.Form BreedMenu
       Left            =   240
       TabIndex        =   6
       ToolTipText     =   "3 puppies here. (Progress: 100%)"
-      Top             =   2880
+      Top             =   3480
       Width           =   1335
    End
    Begin VB.CommandButton Command3 
       Caption         =   "Dachshund"
       Height          =   375
-      Left            =   1920
+      Left            =   2040
       TabIndex        =   5
       ToolTipText     =   "2 puppies here."
-      Top             =   2280
+      Top             =   2880
       Width           =   1455
    End
    Begin VB.CommandButton Command2 
@@ -42,7 +50,7 @@ Begin VB.Form BreedMenu
       Left            =   120
       TabIndex        =   4
       ToolTipText     =   "1 puppy here."
-      Top             =   2280
+      Top             =   2880
       Width           =   1455
    End
    Begin VB.Frame Frame2 
@@ -64,7 +72,7 @@ Begin VB.Form BreedMenu
    End
    Begin VB.Frame Frame1 
       Caption         =   "Terriers"
-      Height          =   2055
+      Height          =   2655
       Left            =   120
       TabIndex        =   0
       Top             =   120
@@ -127,6 +135,10 @@ End Sub
 
 Private Sub Command7_Click()
 BSTMenu.Show
+End Sub
+
+Private Sub Command8_Click()
+SCTMenu.Show
 End Sub
 
 Private Sub PRTButton_Click()
